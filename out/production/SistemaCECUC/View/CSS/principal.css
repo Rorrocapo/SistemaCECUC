@@ -1,0 +1,47 @@
+.jfx-hamburger StackPane {
+	-fx-background-color: white;
+}
+
+.vbox{
+	-fx-spacing: 125;
+}
+
+.pane{
+	-fx-background-color:  #2e4053;
+	-fx-border-color:  #34495e  ;
+}
+
+#sheet{
+	-fx-background-image: url("../Images/transparent-clipboard-white.png");
+	-fx-background-size: 35px 35px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+#register{
+	-fx-background-image: url("../Images/save-as-xxl.png");
+	-fx-background-size: 35px 35px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+#user{
+	-fx-background-image: url("../Images/unnamed.png");
+	-fx-background-size: 35px 35px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+#users{
+	-fx-background-image: url("../Images/white-person-png-10.png");
+	-fx-background-size: 35px 35px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+.wizard {
+	-fx-tab-max-height: 0 ;
+}
+.wizard .tab-header-area {
+	visibility: hidden ;
+}

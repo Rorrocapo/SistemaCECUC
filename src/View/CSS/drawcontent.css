@@ -1,0 +1,14 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+
+.vbox{
+    -fx-spacing: 125;
+    -fx-background-color:  #2e4053;
+    -fx-border-color:  #34495e  ;
+}
+
+#font{
+    -fx-text-fill: white;
+}

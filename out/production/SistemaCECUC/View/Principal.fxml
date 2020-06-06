@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXDrawer?>
+<?import com.jfoenix.controls.JFXHamburger?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="AnchorPane" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0"
+            stylesheets="@../View/CSS/principal.css"
+            xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="Controller.PrincipalController">
+    <children>
+        <TabPane fx:id="tabPane" layoutX="70.0" prefHeight="720.0" prefWidth="1210.0" styleClass="wizard" stylesheets="@../View/CSS/principal.css" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="70.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <tabs>
+                <Tab text="Untitled Tab 1">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="328.0" prefWidth="937.0">
+                            <children>
+                                <Pane layoutY="35.0" prefHeight="713.0" prefWidth="1210.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                            </children>
+                        </AnchorPane>
+                    </content>
+                </Tab>
+                <Tab text="Untitled Tab 2">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="673.0" prefWidth="1210.0">
+                            <children>
+                                <Pane layoutX="315.0" layoutY="-64.0" prefHeight="640.0" prefWidth="1210.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                            </children>
+                        </AnchorPane>
+                    </content>
+                </Tab>
+                <Tab text="Untitled Tab 3">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                    </content>
+                </Tab>
+                <Tab text="Untitled Tab 4">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                    </content>
+                </Tab>
+            </tabs>
+        </TabPane>
+        <VBox alignment="CENTER" layoutX="70.0" layoutY="85.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="250.0" AnchorPane.bottomAnchor="85.0" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="85.0">
+            <children>
+                <JFXDrawer fx:id="drwr" defaultDrawerSize="250.0" maxHeight="-Infinity" maxWidth="-Infinity" overLayVisible="false" prefHeight="550.0" prefWidth="250.0" />
+            </children>
+        </VBox>
+        <Pane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="720.0" prefWidth="70.0" styleClass="pane" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <JFXHamburger fx:id="hb" layoutX="16.0" layoutY="14.0" prefHeight="25.0" prefWidth="38.0">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXHamburger>
+            </children>
+        </Pane>
+        <VBox alignment="CENTER" layoutY="85.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="70.0" styleClass="vbox" AnchorPane.bottomAnchor="85.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="85.0">
+            <children>
+                <JFXButton id="user" focusTraversable="false" prefHeight="35.0" prefWidth="35.0">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <JFXButton id="sheet" focusTraversable="false" graphicTextGap="0.0" prefHeight="35.0" prefWidth="35.0">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <JFXButton id="register" focusTraversable="false" prefHeight="35.0" prefWidth="35.0">
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </JFXButton>
+                <JFXButton id="users" focusTraversable="false" prefHeight="35.0" prefWidth="35.0" />
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>
