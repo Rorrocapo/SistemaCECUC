@@ -71,13 +71,9 @@ public class PrincipalController implements Initializable {
     }
 
     @FXML
-    private void onActionSaveBtn(ActionEvent event){
+    private void onActionInsertBtn(ActionEvent event){
         tabPane.getSelectionModel().select(2);//Selecciona los paneles por cada accion de los botones laterales
     }
 
-    @FXML
-    private void onActionUsersBtn(ActionEvent event){
-        tabPane.getSelectionModel().select(3);//Selecciona los paneles por cada accion de los botones laterales
-    }
 
 }

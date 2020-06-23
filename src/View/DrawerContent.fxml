@@ -4,7 +4,6 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
 <VBox alignment="CENTER" prefHeight="550.0" prefWidth="250.0" styleClass="vbox" stylesheets="@../View/CSS/drawcontent.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
     <children>
         <Label id="font" text="User">
@@ -20,11 +19,6 @@
         <Label id="font" text="Registrar alumno">
             <font>
                 <Font size="20.0" />
-            </font>
-        </Label>
-        <Label id="font" text="Control de usuarios">
-            <font>
-                <Font name="Arial" size="20.0" />
             </font>
         </Label>
     </children>
